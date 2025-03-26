@@ -1,0 +1,7 @@
+Name: Abhijeet  
+Skills: Web Development (MERN, Go), Machine Learning, Deployment (AWS, Docker, CI/CD)  
+Projects:  
+1. Clown - A social media app for students to find study partners.  
+2. No-code ML Builder - A tool to build ML models without coding.  
+3. Life OS - A productivity system replacing all management apps.  
+Experience: Working on large-scale AI and web projects.  
