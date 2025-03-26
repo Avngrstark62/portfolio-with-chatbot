@@ -1,59 +1,47 @@
 import { FaGithub, FaExternalLinkAlt, FaCode, FaServer, FaRobot } from 'react-icons/fa';
-import { SiTypescript, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiExpress, SiPostgresql, SiDocker, SiTensorflow } from 'react-icons/si';
+import { SiTypescript, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiExpress, SiPostgresql, SiDocker, SiMongodb, SiFlask, SiFastapi, SiPython, SiReact, SiStreamlit, SiJavascript, SiPandas, SiNginx } from 'react-icons/si';
 import { FaAws } from 'react-icons/fa';
 
 const ProjectCard = ({ project }) => {
   const iconMap = {
-    frontend: <FaCode className="text-blue-500" />,
-    backend: <FaServer className="text-green-500" />,
+    web_dev: <FaCode className="text-blue-500" />,
+    // backend: <FaServer className="text-green-500" />,
     ai: <FaRobot className="text-purple-500" />,
   };
 
   const techIcons = {
     'TypeScript': <SiTypescript className="text-blue-600" />,
+    'JavaScript': <SiJavascript className="text-yellow-400" />,
+    'React': <SiReact className="text-blue-500" />,
     'Next.js': <SiNextdotjs />,
     'Tailwind CSS': <SiTailwindcss className="text-cyan-500" />,
     'Node.js': <SiNodedotjs className="text-green-600" />,
     'Express': <SiExpress />,
     'PostgreSQL': <SiPostgresql className="text-blue-700" />,
+    'MongoDB': <SiMongodb className="text-green-500" />,
     'Docker': <SiDocker className="text-blue-400" />,
     'AWS': <FaAws className="text-orange-500" />,
-    'TensorFlow': <SiTensorflow className="text-orange-600" />,
+    'Pandas': <SiPandas className="text-orange-600" />,
+    'Flask': <SiFlask className="text-gray-700" />,
+    'FastAPI': <SiFastapi className="text-teal-600" />,
+    'Python': <SiPython className="text-yellow-500" />,
+    'Streamlit': <SiStreamlit className="text-red-500" />,
+    'Socket.io': <SiJavascript className="text-black" />,
+    'Nginx': <SiNginx className="text-black" />,
   };
 
   return (
     <div className="bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02] hover:shadow-xl">
-      {/* Project Image */}
-      <div className="h-48 bg-gradient-to-r from-gray-100 to-gray-200 overflow-hidden relative">
-        {project.image ? (
-          <img 
-            src={project.image} 
-            alt={project.title}
-            className="w-full h-full object-cover"
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center text-gray-400">
-            <div className="text-center p-4">
-              <div className="text-4xl mb-2">{iconMap[project.category]}</div>
-              <p>Project Preview</p>
-            </div>
-          </div>
-        )}
-      </div>
-      
-      {/* Project Content */}
       <div className="p-6">
         <div className="flex justify-between items-start mb-3">
           <h3 className="text-xl font-bold">{project.title}</h3>
           <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800">
-            {project.category === 'frontend' ? 'Frontend' : 
-             project.category === 'backend' ? 'Backend' : 'AI/ML'}
+            {project.category === 'webdev' ? 'Web Dev' : 'AI/ML'}
           </span>
         </div>
         
         <p className="text-gray-600 mb-4">{project.description}</p>
         
-        {/* Tech Stack */}
         <div className="mb-4">
           <h4 className="font-medium mb-2 flex items-center gap-2">
             <FaCode className="text-gray-500" />
@@ -69,7 +57,6 @@ const ProjectCard = ({ project }) => {
           </div>
         </div>
         
-        {/* Key Features */}
         {project.keyFeatures && (
           <div className="mb-4">
             <h4 className="font-medium mb-2 flex items-center gap-2">
@@ -87,7 +74,6 @@ const ProjectCard = ({ project }) => {
           </div>
         )}
         
-        {/* Project Links */}
         <div className="flex flex-wrap gap-3 mt-6 pt-4 border-t border-gray-100">
           {project.githubUrl && (
             <a 
@@ -121,52 +107,50 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "AI Study Partner Platform",
-      category: "ai",
-      description: "An intelligent platform that connects students with compatible study partners using machine learning algorithms.",
-      techStack: ["TypeScript", "Next.js", "Node.js", "TensorFlow", "PostgreSQL"],
+      title: "Clown - Social Media App",
+      category: "webdev",
+      description: "A full-stack social media platform with MERN stack, deployed on AWS EC2 with AI-powered features.",
+      techStack: ["MongoDB", "Express", "React", "Node.js", "AWS", "Docker", "Nginx", "Socket.io", "Tailwind CSS"],
       keyFeatures: [
-        "AI-based matching algorithm",
+        "Post creation with AI-generated captions (using Mistral-7B)",
         "Real-time chat functionality",
-        "Automated scheduling system",
-        "Performance analytics dashboard"
+        "Secure authentication with JWT and HTTP-only cookies",
+        "Email verification via OTP",
+        "Scalable cloud deployment on AWS using Docker, Github-actions, Nginx"
       ],
-      githubUrl: "https://github.com/yourusername/study-partner",
-      liveUrl: "https://studypartner.example.com",
-      image: "/project-ai.jpg"
+      githubUrl: "https://github.com/Avngrstark62/Clown",
+      liveUrl: "https://clownapp.fun",
     },
     {
       id: 2,
-      title: "E-Commerce Analytics Dashboard",
-      category: "frontend",
-      description: "A comprehensive dashboard for e-commerce businesses to track sales, customer behavior, and inventory in real-time.",
-      techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
+      title: "Cricket Simulator",
+      category: "webdev",
+      description: "A cricket match simulator with probability models for ball-by-ball simulation.",
+      techStack: ["React", "Node.js", "Express", "MongoDB", "JavaScript"],
       keyFeatures: [
-        "Interactive data visualizations",
-        "Customizable reporting",
-        "Inventory management",
-        "Mobile-responsive design"
+        "Ball-by-ball match simulation with realistic probabilities",
+        "Real-time score updates and match statistics",
+        "Responsive web interface"
       ],
-      githubUrl: "https://github.com/yourusername/ecommerce-dashboard",
-      liveUrl: "https://dashboard.example.com",
-      image: "/project-dashboard.jpg"
+      githubUrl: "https://github.com/Avngrstark62/Cricket-Simulator",
+      liveUrl: "https://crickulator.vercel.app",
     },
     {
       id: 3,
-      title: "Cloud-Based Content Management System",
-      category: "backend",
-      description: "A scalable CMS solution with multi-tenant architecture built for enterprise clients.",
-      techStack: ["Node.js", "Express", "PostgreSQL", "Docker", "AWS"],
+      title: "Movie Recommendation System",
+      category: "ai",
+      description: "A content-based movie recommendation engine with TMDb API integration.",
+      techStack: ["Python", "Flask", "Streamlit", "Pandas"],
       keyFeatures: [
-        "Role-based access control",
-        "Automated backups",
-        "API-first architecture",
-        "Continuous deployment pipeline"
+        "Content-based recommendation using cosine similarity",
+        "TMDb API integration for movie posters and metadata",
+        "Autocomplete input for movie selection",
+        "Displays top 20 similar movies",
+        "User-friendly interface with movie posters"
       ],
-      githubUrl: "https://github.com/yourusername/enterprise-cms",
-      liveUrl: "https://cms.example.com",
-      image: "/project-cms.jpg"
-    }
+      githubUrl: "https://github.com/Avngrstark62/Movie-Recommendation-System",
+      liveUrl: "https://huggingface.co/spaces/avngrstark/Movie-Recommendation-System",
+    },
   ];
 
   return (
@@ -181,25 +165,10 @@ const Projects = () => {
           </p>
         </div>
         
-        {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
-        </div>
-        
-        {/* Call to Action */}
-        <div className="text-center mt-16">
-          <p className="text-gray-600 mb-6">Want to see more of my work?</p>
-          <a 
-            href="https://github.com/Avngrstark62" 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center px-6 py-3 bg-gray-800 text-white rounded-lg hover:bg-gray-900 transition-colors"
-          >
-            <FaGithub className="mr-2" />
-            Visit My GitHub
-          </a>
         </div>
       </div>
     </section>

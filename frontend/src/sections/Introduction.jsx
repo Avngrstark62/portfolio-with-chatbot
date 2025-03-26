@@ -1,4 +1,5 @@
 import { FaCode, FaRobot, FaServer, FaChartLine } from 'react-icons/fa';
+import { SiCodeforces } from "react-icons/si";
 
 const Introduction = () => {
   return (
@@ -42,8 +43,8 @@ const Introduction = () => {
                 <span>DevOps</span>
               </div>
               <div className="flex items-center gap-2 bg-white p-3 rounded-lg shadow-sm">
-                <FaChartLine className="text-orange-500 text-xl" />
-                <span>Data Visualization</span>
+                <SiCodeforces className="text-blue-500 text-xl" />
+                <span>Competitive Programming</span>
               </div>
             </div>
           </div>

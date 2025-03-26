@@ -20,16 +20,17 @@ const Resume = () => {
         
         <div className="max-w-2xl mx-auto">
           <p className="text-lg text-gray-700 mb-8">
-            Here's a quick overview of my professional journey. Download my full resume to see my complete experience, education, and achievements.
+            Here's a quick overview of my professional journey. Download my full resume to see my complete skills, education, and projects.
           </p>
           
           <div className="bg-gray-50 p-6 rounded-lg mb-8 text-left">
             <h3 className="text-xl font-semibold mb-4">Highlights</h3>
             <ul className="space-y-2 list-disc pl-5">
-              <li>X years of experience in full-stack development</li>
-              <li>Bachelor's degree in Computer Science</li>
-              <li>Certified in AWS Cloud Practitioner</li>
-              <li>Open source contributor</li>
+              <li>Full Stack Developer specializing in scalable MERN applications</li>
+              <li>Proficient in backend development, deployment, and DevOps</li>
+              <li>B.Tech - Civil Engineering at IIT Kanpur (Nov 2022 - Present)</li>
+              <li>Developed and deployed multiple full-stack applications</li>
+              <li>Experienced in AI/ML integration and cloud computing</li>
             </ul>
           </div>
           

@@ -24,7 +24,7 @@ Class XII
 
 Technical Skills
 Frontend: React, HTML5, CSS3, JavaScript, Tailwind CSS, Vite
-Backend:Node.js, Express, Flask, Python, FastAPI
+Backend:Node.js, Express, Flask, Python, FastAPI, Socket.io
 Databases: MongoDB, PostgreSQL
 DevOps: AWS Cloud, Linux, Nginx, Docker, GitHub Actions
 AI/ML: LLM Integration, Huggingface, Scikit-learn, TensorFlow, Pandas, NumPy, NLTK

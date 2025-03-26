@@ -1,4 +1,4 @@
-import { FaReact, FaNodeJs, FaAws, FaPython } from 'react-icons/fa';
+import { FaReact, FaNodeJs, FaDatabase, FaAws, FaPython, FaCode } from 'react-icons/fa';
 
 const SkillCategory = ({ title, icon, skills }) => {
   return (
@@ -30,44 +30,61 @@ const SkillCategory = ({ title, icon, skills }) => {
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Frontend",
-      icon: <FaReact />,
-      skills: [
-        { name: "React.js", level: 90 },
-        { name: "Next.js", level: 85 },
-        { name: "Tailwind CSS", level: 95 },
-      ]
-    },
-    {
       title: "Backend",
       icon: <FaNodeJs />,
       skills: [
         { name: "Node.js", level: 88 },
         { name: "Express.js", level: 85 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "Prisma", level: 75 },
-        { name: "Redis", level: 70 },
+        { name: "Flask", level: 80 },
+        { name: "Python", level: 90 },
+        { name: "FastAPI", level: 78 },
+        { name: "Socket.io", level: 75 },
       ]
     },
     {
       title: "DevOps",
       icon: <FaAws />,
       skills: [
+        { name: "AWS Cloud", level: 75 },
+        { name: "Linux", level: 85 },
+        { name: "Nginx", level: 80 },
         { name: "Docker", level: 85 },
-        { name: "CI/CD", level: 80 },
-        { name: "AWS EC2", level: 75 },
-        { name: "Nginx", level: 70 },
-        { name: "GitHub Actions", level: 65 },
+        { name: "GitHub Actions", level: 70 },
       ]
     },
     {
-      title: "Machine Learning",
+      title: "AI/ML",
       icon: <FaPython />,
       skills: [
+        { name: "LLM Integration", level: 78 },
+        { name: "Hugging Face", level: 80 },
+        { name: "Scikit-learn", level: 85 },
         { name: "TensorFlow", level: 75 },
-        { name: "OpenAI API", level: 80 },
+        { name: "Pandas", level: 90 },
+        { name: "NumPy", level: 88 },
+        { name: "NLTK", level: 70 },
       ]
-    }
+    },
+    {
+      title: "Frontend",
+      icon: <FaReact />,
+      skills: [
+        { name: "React.js", level: 90 },
+        { name: "Tailwind CSS", level: 95 },
+        { name: "Vite", level: 85 },
+        { name: "HTML5", level: 95 },
+        { name: "CSS3", level: 90 },
+        { name: "JavaScript", level: 92 },
+      ]
+    },
+    {
+      title: "Databases",
+      icon: <FaDatabase />,
+      skills: [
+        { name: "MongoDB", level: 85 },
+        { name: "PostgreSQL", level: 80 },
+      ]
+    },
   ];
 
   return (
@@ -77,7 +94,7 @@ const Skills = () => {
           My Skills
         </h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skillCategories.map((category) => (
             <SkillCategory 
               key={category.title}
