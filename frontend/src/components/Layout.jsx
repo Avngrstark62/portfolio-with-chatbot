@@ -57,7 +57,7 @@ const Layout = ({ children }) => {
               {navItems.map((item) => (
                 <a 
                   key={item.id} 
-                  href={`#${item.id}`} 
+                  href={`/${item.id}`} 
                   className="flex items-center px-3 py-3 rounded-md hover:bg-gray-100 transition-colors duration-200"
                   onClick={toggleMenu}
                 >
