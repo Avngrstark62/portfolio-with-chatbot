@@ -1,7 +1,78 @@
-Name: Abhijeet  
-Skills: Web Development (MERN, Go), Machine Learning, Deployment (AWS, Docker, CI/CD)  
-Projects:  
-1. Clown - A social media app for students to find study partners.  
-2. No-code ML Builder - A tool to build ML models without coding.  
-3. Life OS - A productivity system replacing all management apps.  
-Experience: Working on large-scale AI and web projects.  
+Abhijeet Singh Thakur
+Full Stack Developer
+* Jabalpur, India
+
+H +91 6266032577
+
+# thakurabhijeetsingh79@gmail.com
+
+Full Stack Developer specializing in scalable, high-performance MERN applications. Proficient in backend development and deployment, with strong problem-solving skills and team collaboration experience.
+Currently advancing expertise in web technologies and software architecture to deliver user-centric solutions.
+
+Links
+ Portfolio
+
+ï LinkedIn
+
+§ GitHub
+
+Education
+Indian Institute of Technology Kanpur
+B.Tech - Civil Engineering
+Govt. Boys Higher Secondary School Majholi, Jabalpur
+Class XII
+
+Nov 2022 - Present
+Jun 2021 - Jun 2022
+
+Technical Skills
+Frontend:
+Backend:
+Databases:
+DevOps:
+AI/ML:
+
+React, HTML5, CSS3, JavaScript, Tailwind CSS, Vite
+Node.js, Express, Flask, Python, FastAPI,
+MongoDB, PostgreSQL
+AWS Cloud, Linux, Nginx, Docker, GitHub Actions
+LLM Integration, Huggingface, Scikit-learn, TensorFlow, Pandas, NumPy, NLTK
+
+Projects
+Clown - A Social Media Web App
+
+Feb 2025 - Present
+
+§ GitHub
+
+Live Demo
+
+• Built a full-stack social media platform with MERN stack, deployed on AWS EC2
+• Implemented features: posts, real-time chat, likes, comments, profile management and more.
+• Secured authentication using JWT tokens and cookie-based sessions
+Cricket Simulator
+Dec 2023 - Feb 2025 § GitHub
+Live Demo
+• Developed a cricket match simulator with dynamic probability models for ball-by-ball simulation
+• Created real-time score updates and interactive strategy decision engine
+• Transitioned from Flask to MERN stack for improved scalability and performance
+No Code ML Builder
+Jan 2025 - Present § GitHub
+• Developing a no-code machine learning platform with intuitive UI for non-technical users
+• Built with Node.js, Express, React, PostgreSQL, and Python for ML processing
+Movie Recommendation System
+Aug 2024 § GitHub
+Live Demo
+• Created a movie recommendation engine with TMDb API integration
+• Built with Streamlit for a seamless user experience
+
+Languages
+
+Interests
+
+English (Fluent), Hindi (Native)
+
+Competitive Programming, Machine Learning,
+Artificial Intelligence
+
+

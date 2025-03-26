@@ -12,9 +12,9 @@ const Layout = ({ children }) => {
   const navItems = [
     { id: 'intro', label: 'Introduction', icon: <FiUser className="mr-2" /> },
     { id: 'skills', label: 'Skills', icon: <FiCode className="mr-2" /> },
+    { id: 'projects', label: 'Projects', icon: <FiFolder className="mr-2" /> },
     { id: 'resume', label: 'Resume', icon: <FiFileText className="mr-2" /> },
-    { id: 'contact', label: 'Contact', icon: <FiMail className="mr-2" /> },
-    { id: 'projects', label: 'Projects', icon: <FiFolder className="mr-2" /> }
+    { id: 'contact', label: 'Contact', icon: <FiMail className="mr-2" /> }
   ];
 
   return (
