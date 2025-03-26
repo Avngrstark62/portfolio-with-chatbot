@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "http://127.0.0.1:5000"; // Adjust this if your Flask backend runs on a different port
+const API_BASE_URL = "https://portfolio-with-chatbot-chatbot-service.onrender.com";
 
 export const sendMessageToChatbot = async (message) => {
   try {
