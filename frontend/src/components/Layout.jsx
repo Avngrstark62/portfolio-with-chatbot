@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FiMenu, FiX, FiDownload, FiMail, FiUser, FiCode, FiFileText } from 'react-icons/fi';
+import { FiMenu, FiX, FiMail, FiUser, FiCode, FiFileText, FiFolder } from 'react-icons/fi';
 import Chatbot from './Chatbot';
 
 const Layout = ({ children }) => {
@@ -14,7 +14,7 @@ const Layout = ({ children }) => {
     { id: 'skills', label: 'Skills', icon: <FiCode className="mr-2" /> },
     { id: 'resume', label: 'Resume', icon: <FiFileText className="mr-2" /> },
     { id: 'contact', label: 'Contact', icon: <FiMail className="mr-2" /> },
-    { id: 'projects', label: 'Projects', icon: <FiMail className="mr-2" /> }
+    { id: 'projects', label: 'Projects', icon: <FiFolder className="mr-2" /> }
   ];
 
   return (
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
       <header className="bg-white shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-4 py-3 flex justify-between items-center">
           <a href="/" className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-            My Portfolio
+            Abhijeet's Portfolio
           </a>
           
           {/* Desktop Navigation */}
@@ -79,7 +79,7 @@ const Layout = ({ children }) => {
       <footer className="bg-white border-t border-gray-200 py-6">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 mb-4 md:mb-0">
-            © {new Date().getFullYear()} My Portfolio. All rights reserved.
+            © {new Date().getFullYear()} Abhijeet's Portfolio. All rights reserved.
           </p>
           <div className="flex space-x-4">
             <a href="https://linkedin.com/in/abhijeet-s-thakur" className="text-gray-600 hover:text-blue-600 transition-colors duration-200">
