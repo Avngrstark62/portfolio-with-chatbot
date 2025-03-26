@@ -2,11 +2,10 @@ import { FiDownload } from 'react-icons/fi';
 
 const Resume = () => {
   const handleDownload = () => {
-    // Replace with your actual resume URL
     const resumeUrl = '/resume.pdf';
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'YourName_Resume.pdf';
+    link.download = 'abhijeet_resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -48,11 +47,3 @@ const Resume = () => {
 };
 
 export default Resume;
-
-// const Resume = () => {
-//     return (
-//         <h1>Resume</h1>
-//     )
-// }
-
-// export default Resume;

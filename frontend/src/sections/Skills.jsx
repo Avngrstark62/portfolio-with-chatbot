@@ -1,5 +1,4 @@
 import { FaReact, FaNodeJs, FaAws, FaPython } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiExpress, SiPostgresql, SiPrisma, SiRedis, SiDocker, SiTensorflow, SiOpenai } from 'react-icons/si';
 
 const SkillCategory = ({ title, icon, skills }) => {
   return (
@@ -94,11 +93,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-// const Skills = () => {
-//     return (
-//         <h1>Skills</h1>
-//     )
-// }
-
-// export default Skills;

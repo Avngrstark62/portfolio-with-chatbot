@@ -1,8 +1,7 @@
 import { FaGithub, FaExternalLinkAlt, FaCode, FaServer, FaRobot } from 'react-icons/fa';
 import { SiTypescript, SiNextdotjs, SiTailwindcss, SiNodedotjs, SiExpress, SiPostgresql, SiDocker, SiTensorflow } from 'react-icons/si';
-import { FaAws } from 'react-icons/fa'; // AWS icon is in Fa icons not Si
+import { FaAws } from 'react-icons/fa';
 
-// Reusable ProjectCard component
 const ProjectCard = ({ project }) => {
   const iconMap = {
     frontend: <FaCode className="text-blue-500" />,
@@ -118,7 +117,6 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-// Main Projects Component
 const Projects = () => {
   const projects = [
     {
@@ -209,11 +207,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// const Projects = () => {
-//     return (
-//         <h1>Projects</h1>
-//     )
-// }
-
-// export default Projects;
