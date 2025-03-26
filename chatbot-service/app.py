@@ -8,7 +8,7 @@ connectHuggingFace()
 app = Flask(__name__)
 
 # CORS(app)  # Enable CORS for all routes
-CORS(app, origins=["http://localhost:5173"])  # Allow only frontend requests
+CORS(app, origins=["http://localhost:5173", "https://abhijeetst22-portfolio.netlify.app/"])  # Allow only frontend requests
 
 @app.route('/')
 def hello():
