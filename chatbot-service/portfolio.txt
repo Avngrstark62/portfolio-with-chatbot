@@ -1,78 +1,68 @@
 Abhijeet Singh Thakur
 Full Stack Developer
-* Jabalpur, India
-
-H +91 6266032577
-
+Jabalpur, India
++91 6266032577
 # thakurabhijeetsingh79@gmail.com
 
 Full Stack Developer specializing in scalable, high-performance MERN applications. Proficient in backend development and deployment, with strong problem-solving skills and team collaboration experience.
 Currently advancing expertise in web technologies and software architecture to deliver user-centric solutions.
 
 Links
- Portfolio
+ Portfolio(https://abhijeetst22-portfolio.netlify.app)
 
-ï LinkedIn
+ï LinkedIn(www.linkedin.com/in/abhijeet-s-thakur)
 
-§ GitHub
+§ GitHub(https://github.com/Avngrstark62)
 
 Education
 Indian Institute of Technology Kanpur
+Nov 2022 - Present
 B.Tech - Civil Engineering
 Govt. Boys Higher Secondary School Majholi, Jabalpur
+Jun 2021 - Jun 2022
 Class XII
 
-Nov 2022 - Present
-Jun 2021 - Jun 2022
-
 Technical Skills
-Frontend:
-Backend:
-Databases:
-DevOps:
-AI/ML:
-
-React, HTML5, CSS3, JavaScript, Tailwind CSS, Vite
-Node.js, Express, Flask, Python, FastAPI,
-MongoDB, PostgreSQL
-AWS Cloud, Linux, Nginx, Docker, GitHub Actions
-LLM Integration, Huggingface, Scikit-learn, TensorFlow, Pandas, NumPy, NLTK
+Frontend: React, HTML5, CSS3, JavaScript, Tailwind CSS, Vite
+Backend:Node.js, Express, Flask, Python, FastAPI
+Databases: MongoDB, PostgreSQL
+DevOps: AWS Cloud, Linux, Nginx, Docker, GitHub Actions
+AI/ML: LLM Integration, Huggingface, Scikit-learn, TensorFlow, Pandas, NumPy, NLTK
 
 Projects
+
 Clown - A Social Media Web App
-
 Feb 2025 - Present
-
-§ GitHub
-
-Live Demo
-
+§ GitHub(https://github.com/Avngrstark62/Clown)
+Live Demo(https://clownapp.fun)
 • Built a full-stack social media platform with MERN stack, deployed on AWS EC2
 • Implemented features: posts, real-time chat, likes, comments, profile management and more.
 • Secured authentication using JWT tokens and cookie-based sessions
+
 Cricket Simulator
-Dec 2023 - Feb 2025 § GitHub
-Live Demo
+Dec 2023 - Feb 2025
+§ GitHub(https://github.com/Avngrstark62/Cricket-Simulator)
+Live Demo(https://crickulator.vercel.app)
 • Developed a cricket match simulator with dynamic probability models for ball-by-ball simulation
 • Created real-time score updates and interactive strategy decision engine
 • Transitioned from Flask to MERN stack for improved scalability and performance
-No Code ML Builder
-Jan 2025 - Present § GitHub
-• Developing a no-code machine learning platform with intuitive UI for non-technical users
-• Built with Node.js, Express, React, PostgreSQL, and Python for ML processing
+
 Movie Recommendation System
-Aug 2024 § GitHub
-Live Demo
+Aug 2024
+§ GitHub(https://github.com/Avngrstark62/Movie-Recommendation-System)
+Live Demo(https://huggingface.co/spaces/avngrstark/Movie-Recommendation-System)
 • Created a movie recommendation engine with TMDb API integration
 • Built with Streamlit for a seamless user experience
 
+No Code ML Builder
+Jan 2025 - Present
+§ GitHub(https://github.com/Avngrstark62/No-Code-ML-Builder)
+• Developing a no-code machine learning platform with intuitive UI for non-technical users
+• Built with Node.js, Express, React, PostgreSQL, and Python for ML processing
+
+
 Languages
-
-Interests
-
 English (Fluent), Hindi (Native)
 
-Competitive Programming, Machine Learning,
-Artificial Intelligence
-
-
+Interests
+Competitive Programming, Machine Learning, Artificial Intelligence
