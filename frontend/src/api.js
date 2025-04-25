@@ -1,6 +1,9 @@
 import axios from "axios";
 
-const API_BASE_URL = "/api";
+// const API_BASE_URL = "/api";
+// const API_BASE_URL = "https://portfolio-with-chatbot-chatbot-service.onrender.com"
+const API_BASE_URL = import.meta.env.VITE_BASE_URL;
+// console.log(import.meta.env.VITE_BASE_URL)
 
 export const sendMessageToChatbot = async (message) => {
   try {
